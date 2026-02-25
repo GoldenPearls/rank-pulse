@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vercel/postgres": "^0.10.0",
+    "fast-xml-parser": "^5.3.7",
     "chart.js": "^4.4.1",
     "dayjs": "^1.11.10",
     "next": "^14.2.0",
