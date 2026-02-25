@@ -1,3 +1,4 @@
+// apiGet
 export async function apiGet<T>(path: string): Promise<T> {
   const r = await fetch(path, { cache: 'no-store' });
   if (!r.ok) {
